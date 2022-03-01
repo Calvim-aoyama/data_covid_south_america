@@ -1,0 +1,1791 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (owid-covid-data)' inline='true' name='federated.1qzs87e1b6heos1c909dw1joamvl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='owid-covid-data' name='excel-direct.0mg01th0zpmn4q1fi9ola0g21h3a'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/calvim aoyama/Desktop/covid data/owid-covid-data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0mg01th0zpmn4q1fi9ola0g21h3a' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BO10001:no:A1:BO10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='continent' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='date' date-parse-format='yyyy-MM-dd' name='date' ordinal='3' />
+            <column datatype='integer' name='total_cases' ordinal='4' />
+            <column datatype='integer' name='new_cases' ordinal='5' />
+            <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+            <column datatype='integer' name='total_deaths' ordinal='7' />
+            <column datatype='integer' name='new_deaths' ordinal='8' />
+            <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+            <column datatype='real' name='total_cases_per_million' ordinal='10' />
+            <column datatype='real' name='new_cases_per_million' ordinal='11' />
+            <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+            <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+            <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+            <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+            <column datatype='real' name='reproduction_rate' ordinal='16' />
+            <column datatype='integer' name='icu_patients' ordinal='17' />
+            <column datatype='real' name='icu_patients_per_million' ordinal='18' />
+            <column datatype='integer' name='hosp_patients' ordinal='19' />
+            <column datatype='real' name='hosp_patients_per_million' ordinal='20' />
+            <column datatype='string' name='weekly_icu_admissions' ordinal='21' />
+            <column datatype='string' name='weekly_icu_admissions_per_million' ordinal='22' />
+            <column datatype='string' name='weekly_hosp_admissions' ordinal='23' />
+            <column datatype='string' name='weekly_hosp_admissions_per_million' ordinal='24' />
+            <column datatype='integer' name='new_tests' ordinal='25' />
+            <column datatype='integer' name='total_tests' ordinal='26' />
+            <column datatype='real' name='total_tests_per_thousand' ordinal='27' />
+            <column datatype='real' name='new_tests_per_thousand' ordinal='28' />
+            <column datatype='integer' name='new_tests_smoothed' ordinal='29' />
+            <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='30' />
+            <column datatype='real' name='positive_rate' ordinal='31' />
+            <column datatype='real' name='tests_per_case' ordinal='32' />
+            <column datatype='string' name='tests_units' ordinal='33' />
+            <column datatype='integer' name='total_vaccinations' ordinal='34' />
+            <column datatype='integer' name='people_vaccinated' ordinal='35' />
+            <column datatype='integer' name='people_fully_vaccinated' ordinal='36' />
+            <column datatype='integer' name='total_boosters' ordinal='37' />
+            <column datatype='integer' name='new_vaccinations' ordinal='38' />
+            <column datatype='integer' name='new_vaccinations_smoothed' ordinal='39' />
+            <column datatype='real' name='total_vaccinations_per_hundred' ordinal='40' />
+            <column datatype='real' name='people_vaccinated_per_hundred' ordinal='41' />
+            <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='42' />
+            <column datatype='real' name='total_boosters_per_hundred' ordinal='43' />
+            <column datatype='integer' name='new_vaccinations_smoothed_per_million' ordinal='44' />
+            <column datatype='integer' name='new_people_vaccinated_smoothed' ordinal='45' />
+            <column datatype='real' name='new_people_vaccinated_smoothed_per_hundred' ordinal='46' />
+            <column datatype='real' name='stringency_index' ordinal='47' />
+            <column datatype='integer' name='population' ordinal='48' />
+            <column datatype='real' name='population_density' ordinal='49' />
+            <column datatype='real' name='median_age' ordinal='50' />
+            <column datatype='real' name='aged_65_older' ordinal='51' />
+            <column datatype='real' name='aged_70_older' ordinal='52' />
+            <column datatype='real' name='gdp_per_capita' ordinal='53' />
+            <column datatype='real' name='extreme_poverty' ordinal='54' />
+            <column datatype='real' name='cardiovasc_death_rate' ordinal='55' />
+            <column datatype='real' name='diabetes_prevalence' ordinal='56' />
+            <column datatype='real' name='female_smokers' ordinal='57' />
+            <column datatype='real' name='male_smokers' ordinal='58' />
+            <column datatype='real' name='handwashing_facilities' ordinal='59' />
+            <column datatype='real' name='hospital_beds_per_thousand' ordinal='60' />
+            <column datatype='real' name='life_expectancy' ordinal='61' />
+            <column datatype='real' name='human_development_index' ordinal='62' />
+            <column datatype='real' name='excess_mortality_cumulative_absolute' ordinal='63' />
+            <column datatype='real' name='excess_mortality_cumulative' ordinal='64' />
+            <column datatype='real' name='excess_mortality' ordinal='65' />
+            <column datatype='real' name='excess_mortality_cumulative_per_million' ordinal='66' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0mg01th0zpmn4q1fi9ola0g21h3a' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BO10001:no:A1:BO10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='iso_code' ordinal='0' />
+            <column datatype='string' name='continent' ordinal='1' />
+            <column datatype='string' name='location' ordinal='2' />
+            <column datatype='date' date-parse-format='yyyy-MM-dd' name='date' ordinal='3' />
+            <column datatype='integer' name='total_cases' ordinal='4' />
+            <column datatype='integer' name='new_cases' ordinal='5' />
+            <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+            <column datatype='integer' name='total_deaths' ordinal='7' />
+            <column datatype='integer' name='new_deaths' ordinal='8' />
+            <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+            <column datatype='real' name='total_cases_per_million' ordinal='10' />
+            <column datatype='real' name='new_cases_per_million' ordinal='11' />
+            <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+            <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+            <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+            <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+            <column datatype='real' name='reproduction_rate' ordinal='16' />
+            <column datatype='integer' name='icu_patients' ordinal='17' />
+            <column datatype='real' name='icu_patients_per_million' ordinal='18' />
+            <column datatype='integer' name='hosp_patients' ordinal='19' />
+            <column datatype='real' name='hosp_patients_per_million' ordinal='20' />
+            <column datatype='string' name='weekly_icu_admissions' ordinal='21' />
+            <column datatype='string' name='weekly_icu_admissions_per_million' ordinal='22' />
+            <column datatype='string' name='weekly_hosp_admissions' ordinal='23' />
+            <column datatype='string' name='weekly_hosp_admissions_per_million' ordinal='24' />
+            <column datatype='integer' name='new_tests' ordinal='25' />
+            <column datatype='integer' name='total_tests' ordinal='26' />
+            <column datatype='real' name='total_tests_per_thousand' ordinal='27' />
+            <column datatype='real' name='new_tests_per_thousand' ordinal='28' />
+            <column datatype='integer' name='new_tests_smoothed' ordinal='29' />
+            <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='30' />
+            <column datatype='real' name='positive_rate' ordinal='31' />
+            <column datatype='real' name='tests_per_case' ordinal='32' />
+            <column datatype='string' name='tests_units' ordinal='33' />
+            <column datatype='integer' name='total_vaccinations' ordinal='34' />
+            <column datatype='integer' name='people_vaccinated' ordinal='35' />
+            <column datatype='integer' name='people_fully_vaccinated' ordinal='36' />
+            <column datatype='integer' name='total_boosters' ordinal='37' />
+            <column datatype='integer' name='new_vaccinations' ordinal='38' />
+            <column datatype='integer' name='new_vaccinations_smoothed' ordinal='39' />
+            <column datatype='real' name='total_vaccinations_per_hundred' ordinal='40' />
+            <column datatype='real' name='people_vaccinated_per_hundred' ordinal='41' />
+            <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='42' />
+            <column datatype='real' name='total_boosters_per_hundred' ordinal='43' />
+            <column datatype='integer' name='new_vaccinations_smoothed_per_million' ordinal='44' />
+            <column datatype='integer' name='new_people_vaccinated_smoothed' ordinal='45' />
+            <column datatype='real' name='new_people_vaccinated_smoothed_per_hundred' ordinal='46' />
+            <column datatype='real' name='stringency_index' ordinal='47' />
+            <column datatype='integer' name='population' ordinal='48' />
+            <column datatype='real' name='population_density' ordinal='49' />
+            <column datatype='real' name='median_age' ordinal='50' />
+            <column datatype='real' name='aged_65_older' ordinal='51' />
+            <column datatype='real' name='aged_70_older' ordinal='52' />
+            <column datatype='real' name='gdp_per_capita' ordinal='53' />
+            <column datatype='real' name='extreme_poverty' ordinal='54' />
+            <column datatype='real' name='cardiovasc_death_rate' ordinal='55' />
+            <column datatype='real' name='diabetes_prevalence' ordinal='56' />
+            <column datatype='real' name='female_smokers' ordinal='57' />
+            <column datatype='real' name='male_smokers' ordinal='58' />
+            <column datatype='real' name='handwashing_facilities' ordinal='59' />
+            <column datatype='real' name='hospital_beds_per_thousand' ordinal='60' />
+            <column datatype='real' name='life_expectancy' ordinal='61' />
+            <column datatype='real' name='human_development_index' ordinal='62' />
+            <column datatype='real' name='excess_mortality_cumulative_absolute' ordinal='63' />
+            <column datatype='real' name='excess_mortality_cumulative' ordinal='64' />
+            <column datatype='real' name='excess_mortality' ordinal='65' />
+            <column datatype='real' name='excess_mortality_cumulative_per_million' ordinal='66' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BO10001:no:A1:BO10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iso_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[iso_code]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>iso_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>continent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[continent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>continent</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_cases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_cases</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_cases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_cases</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_smoothed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_cases_smoothed</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_deaths]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_deaths]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_deaths</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_smoothed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_smoothed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_deaths_smoothed</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_cases_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_cases_per_million</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_cases_per_million</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases_smoothed_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_cases_smoothed_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_cases_smoothed_per_million</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deaths_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_deaths_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_deaths_per_million</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_deaths_per_million</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths_smoothed_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_deaths_smoothed_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_deaths_smoothed_per_million</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reproduction_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reproduction_rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>reproduction_rate</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icu_patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[icu_patients]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>icu_patients</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>icu_patients_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[icu_patients_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>icu_patients_per_million</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hosp_patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hosp_patients]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>hosp_patients</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hosp_patients_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hosp_patients_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>hosp_patients_per_million</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_icu_admissions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weekly_icu_admissions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>weekly_icu_admissions</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_icu_admissions_per_million</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weekly_icu_admissions_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>weekly_icu_admissions_per_million</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_hosp_admissions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weekly_hosp_admissions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>weekly_hosp_admissions</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_hosp_admissions_per_million</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weekly_hosp_admissions_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>weekly_hosp_admissions_per_million</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_tests]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_tests</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tests</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_tests]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_tests</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_tests_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_tests_per_thousand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_tests_per_thousand</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests_per_thousand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_tests_per_thousand</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_smoothed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_tests_smoothed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_tests_smoothed</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_tests_smoothed_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_tests_smoothed_per_thousand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_tests_smoothed_per_thousand</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>positive_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[positive_rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>positive_rate</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tests_per_case</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tests_per_case]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>tests_per_case</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tests_units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[tests_units]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>tests_units</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vaccinations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_vaccinations]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_vaccinations</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_vaccinated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[people_vaccinated]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>people_vaccinated</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_fully_vaccinated</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[people_fully_vaccinated]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>people_fully_vaccinated</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_boosters</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_boosters]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_boosters</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_vaccinations]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_vaccinations</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations_smoothed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_vaccinations_smoothed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_vaccinations_smoothed</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vaccinations_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_vaccinations_per_hundred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_vaccinations_per_hundred</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_vaccinated_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_vaccinated_per_hundred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>people_vaccinated_per_hundred</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>people_fully_vaccinated_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[people_fully_vaccinated_per_hundred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>people_fully_vaccinated_per_hundred</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_boosters_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_boosters_per_hundred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>total_boosters_per_hundred</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_vaccinations_smoothed_per_million</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_vaccinations_smoothed_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_vaccinations_smoothed_per_million</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_people_vaccinated_smoothed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[new_people_vaccinated_smoothed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_people_vaccinated_smoothed</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_people_vaccinated_smoothed_per_hundred</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[new_people_vaccinated_smoothed_per_hundred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>new_people_vaccinated_smoothed_per_hundred</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stringency_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stringency_index]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>stringency_index</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population_density]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>population_density</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[median_age]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>median_age</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aged_65_older</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aged_65_older]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>aged_65_older</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>aged_70_older</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[aged_70_older]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>aged_70_older</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gdp_per_capita</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gdp_per_capita]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>gdp_per_capita</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extreme_poverty</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[extreme_poverty]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>extreme_poverty</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cardiovasc_death_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cardiovasc_death_rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cardiovasc_death_rate</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diabetes_prevalence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diabetes_prevalence]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>diabetes_prevalence</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>female_smokers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[female_smokers]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>female_smokers</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>male_smokers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[male_smokers]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>male_smokers</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>handwashing_facilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[handwashing_facilities]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>handwashing_facilities</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hospital_beds_per_thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hospital_beds_per_thousand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>hospital_beds_per_thousand</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>life_expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[life_expectancy]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>life_expectancy</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>human_development_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[human_development_index]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>human_development_index</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>excess_mortality_cumulative_absolute</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[excess_mortality_cumulative_absolute]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>excess_mortality_cumulative_absolute</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>excess_mortality_cumulative</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[excess_mortality_cumulative]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>excess_mortality_cumulative</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>excess_mortality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[excess_mortality]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>excess_mortality</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>excess_mortality_cumulative_per_million</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[excess_mortality_cumulative_per_million]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>excess_mortality_cumulative_per_million</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_BC5D74F93890436287116E2AB25168D0]' role='measure' type='quantitative' />
+      <column caption='Aged 65 Older' datatype='real' name='[aged_65_older]' role='measure' type='quantitative' />
+      <column caption='Aged 70 Older' datatype='real' name='[aged_70_older]' role='measure' type='quantitative' />
+      <column caption='Cardiovasc Death Rate' datatype='real' name='[cardiovasc_death_rate]' role='measure' type='quantitative' />
+      <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Diabetes Prevalence' datatype='real' name='[diabetes_prevalence]' role='measure' type='quantitative' />
+      <column caption='Excess Mortality' datatype='real' name='[excess_mortality]' role='measure' type='quantitative' />
+      <column caption='Excess Mortality Cumulative' datatype='real' name='[excess_mortality_cumulative]' role='measure' type='quantitative' />
+      <column caption='Excess Mortality Cumulative Absolute' datatype='real' name='[excess_mortality_cumulative_absolute]' role='measure' type='quantitative' />
+      <column caption='Excess Mortality Cumulative Per Million' datatype='real' name='[excess_mortality_cumulative_per_million]' role='measure' type='quantitative' />
+      <column caption='Extreme Poverty' datatype='real' name='[extreme_poverty]' role='measure' type='quantitative' />
+      <column caption='Female Smokers' datatype='real' name='[female_smokers]' role='measure' type='quantitative' />
+      <column caption='Gdp Per Capita' datatype='real' name='[gdp_per_capita]' role='measure' type='quantitative' />
+      <column caption='Handwashing Facilities' datatype='real' name='[handwashing_facilities]' role='measure' type='quantitative' />
+      <column caption='Hosp Patients' datatype='integer' name='[hosp_patients]' role='measure' type='quantitative' />
+      <column caption='Hosp Patients Per Million' datatype='real' name='[hosp_patients_per_million]' role='measure' type='quantitative' />
+      <column caption='Hospital Beds Per Thousand' datatype='real' name='[hospital_beds_per_thousand]' role='measure' type='quantitative' />
+      <column caption='Human Development Index' datatype='real' name='[human_development_index]' role='measure' type='quantitative' />
+      <column caption='Icu Patients' datatype='integer' name='[icu_patients]' role='measure' type='quantitative' />
+      <column caption='Icu Patients Per Million' datatype='real' name='[icu_patients_per_million]' role='measure' type='quantitative' />
+      <column caption='Iso Code' datatype='string' name='[iso_code]' role='dimension' type='nominal' />
+      <column caption='Life Expectancy' datatype='real' name='[life_expectancy]' role='measure' type='quantitative' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+      <column caption='Male Smokers' datatype='real' name='[male_smokers]' role='measure' type='quantitative' />
+      <column caption='Median Age' datatype='real' name='[median_age]' role='measure' type='quantitative' />
+      <column caption='New Cases' datatype='integer' name='[new_cases]' role='measure' type='quantitative' />
+      <column caption='New Cases Per Million' datatype='real' name='[new_cases_per_million]' role='measure' type='quantitative' />
+      <column caption='New Cases Smoothed' datatype='real' name='[new_cases_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Cases Smoothed Per Million' datatype='real' name='[new_cases_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='New Deaths' datatype='integer' name='[new_deaths]' role='measure' type='quantitative' />
+      <column caption='New Deaths Per Million' datatype='real' name='[new_deaths_per_million]' role='measure' type='quantitative' />
+      <column caption='New Deaths Smoothed' datatype='real' name='[new_deaths_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Deaths Smoothed Per Million' datatype='real' name='[new_deaths_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='New People Vaccinated Smoothed' datatype='integer' name='[new_people_vaccinated_smoothed]' role='measure' type='quantitative' />
+      <column caption='New People Vaccinated Smoothed Per Hundred' datatype='real' name='[new_people_vaccinated_smoothed_per_hundred]' role='measure' type='quantitative' />
+      <column caption='New Tests' datatype='integer' name='[new_tests]' role='measure' type='quantitative' />
+      <column caption='New Tests Per Thousand' datatype='real' name='[new_tests_per_thousand]' role='measure' type='quantitative' />
+      <column caption='New Tests Smoothed' datatype='integer' name='[new_tests_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Tests Smoothed Per Thousand' datatype='real' name='[new_tests_smoothed_per_thousand]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations' datatype='integer' name='[new_vaccinations]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations Smoothed' datatype='integer' name='[new_vaccinations_smoothed]' role='measure' type='quantitative' />
+      <column caption='New Vaccinations Smoothed Per Million' datatype='integer' name='[new_vaccinations_smoothed_per_million]' role='measure' type='quantitative' />
+      <column caption='People Fully Vaccinated' datatype='integer' name='[people_fully_vaccinated]' role='measure' type='quantitative' />
+      <column caption='People Fully Vaccinated Per Hundred' datatype='real' name='[people_fully_vaccinated_per_hundred]' role='measure' type='quantitative' />
+      <column caption='People Vaccinated' datatype='integer' name='[people_vaccinated]' role='measure' type='quantitative' />
+      <column caption='People Vaccinated Per Hundred' datatype='real' name='[people_vaccinated_per_hundred]' role='measure' type='quantitative' />
+      <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+      <column caption='Population Density' datatype='real' name='[population_density]' role='measure' type='quantitative' />
+      <column caption='Positive Rate' datatype='real' name='[positive_rate]' role='measure' type='quantitative' />
+      <column caption='Reproduction Rate' datatype='real' name='[reproduction_rate]' role='measure' type='quantitative' />
+      <column caption='Stringency Index' datatype='real' name='[stringency_index]' role='measure' type='quantitative' />
+      <column caption='Tests Per Case' datatype='real' name='[tests_per_case]' role='measure' type='quantitative' />
+      <column caption='Tests Units' datatype='string' name='[tests_units]' role='dimension' type='nominal' />
+      <column caption='Total Boosters' datatype='integer' name='[total_boosters]' role='measure' type='quantitative' />
+      <column caption='Total Boosters Per Hundred' datatype='real' name='[total_boosters_per_hundred]' role='measure' type='quantitative' />
+      <column caption='Total Cases' datatype='integer' name='[total_cases]' role='measure' type='quantitative' />
+      <column caption='Total Cases Per Million' datatype='real' name='[total_cases_per_million]' role='measure' type='quantitative' />
+      <column caption='Total Deaths' datatype='integer' name='[total_deaths]' role='measure' type='quantitative' />
+      <column caption='Total Deaths Per Million' datatype='real' name='[total_deaths_per_million]' role='measure' type='quantitative' />
+      <column caption='Total Tests' datatype='integer' name='[total_tests]' role='measure' type='quantitative' />
+      <column caption='Total Tests Per Thousand' datatype='real' name='[total_tests_per_thousand]' role='measure' type='quantitative' />
+      <column caption='Total Vaccinations' datatype='integer' name='[total_vaccinations]' role='measure' type='quantitative' />
+      <column caption='Total Vaccinations Per Hundred' datatype='real' name='[total_vaccinations_per_hundred]' role='measure' type='quantitative' />
+      <column caption='Weekly Hosp Admissions' datatype='string' name='[weekly_hosp_admissions]' role='dimension' type='nominal' />
+      <column caption='Weekly Hosp Admissions Per Million' datatype='string' name='[weekly_hosp_admissions_per_million]' role='dimension' type='nominal' />
+      <column caption='Weekly Icu Admissions' datatype='string' name='[weekly_icu_admissions]' role='dimension' type='nominal' />
+      <column caption='Weekly Icu Admissions Per Million' datatype='string' name='[weekly_icu_admissions_per_million]' role='dimension' type='nominal' />
+      <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+      <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (Continent,YEAR(Date))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:continent:nk]' />
+          <groupfilter function='level-members' level='[yr:date:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brazil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_BC5D74F93890436287116E2AB25168D0'>
+            <properties context=''>
+              <relation connection='excel-direct.0mg01th0zpmn4q1fi9ola0g21h3a' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:BO10001:no:A1:BO10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='iso_code' ordinal='0' />
+                  <column datatype='string' name='continent' ordinal='1' />
+                  <column datatype='string' name='location' ordinal='2' />
+                  <column datatype='date' date-parse-format='yyyy-MM-dd' name='date' ordinal='3' />
+                  <column datatype='integer' name='total_cases' ordinal='4' />
+                  <column datatype='integer' name='new_cases' ordinal='5' />
+                  <column datatype='real' name='new_cases_smoothed' ordinal='6' />
+                  <column datatype='integer' name='total_deaths' ordinal='7' />
+                  <column datatype='integer' name='new_deaths' ordinal='8' />
+                  <column datatype='real' name='new_deaths_smoothed' ordinal='9' />
+                  <column datatype='real' name='total_cases_per_million' ordinal='10' />
+                  <column datatype='real' name='new_cases_per_million' ordinal='11' />
+                  <column datatype='real' name='new_cases_smoothed_per_million' ordinal='12' />
+                  <column datatype='real' name='total_deaths_per_million' ordinal='13' />
+                  <column datatype='real' name='new_deaths_per_million' ordinal='14' />
+                  <column datatype='real' name='new_deaths_smoothed_per_million' ordinal='15' />
+                  <column datatype='real' name='reproduction_rate' ordinal='16' />
+                  <column datatype='integer' name='icu_patients' ordinal='17' />
+                  <column datatype='real' name='icu_patients_per_million' ordinal='18' />
+                  <column datatype='integer' name='hosp_patients' ordinal='19' />
+                  <column datatype='real' name='hosp_patients_per_million' ordinal='20' />
+                  <column datatype='string' name='weekly_icu_admissions' ordinal='21' />
+                  <column datatype='string' name='weekly_icu_admissions_per_million' ordinal='22' />
+                  <column datatype='string' name='weekly_hosp_admissions' ordinal='23' />
+                  <column datatype='string' name='weekly_hosp_admissions_per_million' ordinal='24' />
+                  <column datatype='integer' name='new_tests' ordinal='25' />
+                  <column datatype='integer' name='total_tests' ordinal='26' />
+                  <column datatype='real' name='total_tests_per_thousand' ordinal='27' />
+                  <column datatype='real' name='new_tests_per_thousand' ordinal='28' />
+                  <column datatype='integer' name='new_tests_smoothed' ordinal='29' />
+                  <column datatype='real' name='new_tests_smoothed_per_thousand' ordinal='30' />
+                  <column datatype='real' name='positive_rate' ordinal='31' />
+                  <column datatype='real' name='tests_per_case' ordinal='32' />
+                  <column datatype='string' name='tests_units' ordinal='33' />
+                  <column datatype='integer' name='total_vaccinations' ordinal='34' />
+                  <column datatype='integer' name='people_vaccinated' ordinal='35' />
+                  <column datatype='integer' name='people_fully_vaccinated' ordinal='36' />
+                  <column datatype='integer' name='total_boosters' ordinal='37' />
+                  <column datatype='integer' name='new_vaccinations' ordinal='38' />
+                  <column datatype='integer' name='new_vaccinations_smoothed' ordinal='39' />
+                  <column datatype='real' name='total_vaccinations_per_hundred' ordinal='40' />
+                  <column datatype='real' name='people_vaccinated_per_hundred' ordinal='41' />
+                  <column datatype='real' name='people_fully_vaccinated_per_hundred' ordinal='42' />
+                  <column datatype='real' name='total_boosters_per_hundred' ordinal='43' />
+                  <column datatype='integer' name='new_vaccinations_smoothed_per_million' ordinal='44' />
+                  <column datatype='integer' name='new_people_vaccinated_smoothed' ordinal='45' />
+                  <column datatype='real' name='new_people_vaccinated_smoothed_per_hundred' ordinal='46' />
+                  <column datatype='real' name='stringency_index' ordinal='47' />
+                  <column datatype='integer' name='population' ordinal='48' />
+                  <column datatype='real' name='population_density' ordinal='49' />
+                  <column datatype='real' name='median_age' ordinal='50' />
+                  <column datatype='real' name='aged_65_older' ordinal='51' />
+                  <column datatype='real' name='aged_70_older' ordinal='52' />
+                  <column datatype='real' name='gdp_per_capita' ordinal='53' />
+                  <column datatype='real' name='extreme_poverty' ordinal='54' />
+                  <column datatype='real' name='cardiovasc_death_rate' ordinal='55' />
+                  <column datatype='real' name='diabetes_prevalence' ordinal='56' />
+                  <column datatype='real' name='female_smokers' ordinal='57' />
+                  <column datatype='real' name='male_smokers' ordinal='58' />
+                  <column datatype='real' name='handwashing_facilities' ordinal='59' />
+                  <column datatype='real' name='hospital_beds_per_thousand' ordinal='60' />
+                  <column datatype='real' name='life_expectancy' ordinal='61' />
+                  <column datatype='real' name='human_development_index' ordinal='62' />
+                  <column datatype='real' name='excess_mortality_cumulative_absolute' ordinal='63' />
+                  <column datatype='real' name='excess_mortality_cumulative' ordinal='64' />
+                  <column datatype='real' name='excess_mortality' ordinal='65' />
+                  <column datatype='real' name='excess_mortality_cumulative_per_million' ordinal='66' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (owid-covid-data)' name='federated.1qzs87e1b6heos1c909dw1joamvl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1qzs87e1b6heos1c909dw1joamvl'>
+            <column caption='Continent' datatype='string' name='[continent]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[continent]' derivation='None' name='[none:continent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total_deaths]' derivation='Sum' name='[sum:total_deaths:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Deaths' datatype='integer' name='[total_deaths]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1qzs87e1b6heos1c909dw1joamvl].[Exclusions (Continent,YEAR(Date))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:continent:nk]' />
+                <groupfilter function='level-members' level='[yr:date:ok]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:continent:nk]' member='%null%' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[yr:date:ok]' member='2020' />
+                  <groupfilter function='member' level='[yr:date:ok]' member='2021' />
+                  <groupfilter function='member' level='[yr:date:ok]' member='2022' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1qzs87e1b6heos1c909dw1joamvl].[Exclusions (Continent,YEAR(Date))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width-header' value='228' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1qzs87e1b6heos1c909dw1joamvl].[sum:total_deaths:qk]</rows>
+        <cols>([federated.1qzs87e1b6heos1c909dw1joamvl].[yr:date:ok] / [federated.1qzs87e1b6heos1c909dw1joamvl].[none:continent:nk])</cols>
+      </table>
+      <simple-id uuid='{38891BBC-A0D8-4991-A124-6F0B9A47EE9B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1qzs87e1b6heos1c909dw1joamvl].[none:continent:nk]</field>
+            <field>[federated.1qzs87e1b6heos1c909dw1joamvl].[none:date:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C8980DD6-8862-47C3-9D49-BA6DF2239841}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      iE1Hef9PfISigH17AAO9vURDN/jm17+O3+siq3gFT+3eYtu3c9Xh5sDu9bz6+lvs3bEOBQVf
+      IBNPko/jwGxfvXF9gNbWNm6MTaLEoqx75kPU5vlsnifHicsMcuFaG/kBD90tVyjftM/OCgkO
+      9RNOJHjtO98gOyuAw+Xn6eeexWdjXx3uusbJi1eZnIzg1KBy3S4e31RnW30zk6OMT8/IENBN
+      N18GU5+h8cQpQjF9blY/lfpN2yjOSf7VjuM9F/nfr1/kmWeeYkV5MdcvN6Kt2kGJ7fchsQgF
+      JxkeHGA0FGVF7SqKcjPtrhTTSBAKhcnwZ2IaBm63nWesGJw4dpJiv4OMNTuZaDlL8ar1ZHvt
+      PaMrEYsyPRMjEPBhmOBy3ttW436GgG72VcuI0Xj8BFO39dXVG7dSmpv8b60TfVf5yitnePqZ
+      p1lZWcLwlUas2u2Uee3e87AIBycZHhpkJDhD9co6ivPsu17lJtPQCYXCeP1+LMO0ua+anHj7
+      BFt3bOTShR7WrsyibQQ2rCq3sU6wTDkLaF54pI9JJZsiv0l++Sp21ZTZXmd2+Ro+8ISDtmvn
+      uXQ2gduIsX7FZiy3w+a7NBl862tf58M//yvU2nsE71aNsSneeP1NItNhGp54PxNdbWzbtcPG
+      0wdB0Rz4fA6CoSjZXieTkZitARAc7uJo4zWioTD7X3yO9uZudm5dn/Q9gMjYIKNGBmU5DnJK
+      VrKzbuH7wyZLVmkdzz+p0NZ6kSvnG3HrMRqqNmN57O+r3/7G13nx536ZlfadMnYHMxHm9dcO
+      EY3MsGr3U0z1dbB1107sHGWbPejrJq5P48lawUxLG2BfAFhGjKOHDqG9/PLLL9tWyxKLRqMY
+      hoHPdw/f3vUZGs9ewtRn6BsYQVVMJicnmZwM4vBk4HIkv/MpqkZ2XgEra+tYXVeD06ly7XwT
+      PdfHqagst3HjqJKTYXGhY4TqimKbh5tmDbVeIKdhH6vyXSRcWXimR9AKym08tU7FMuLkllVx
+      4egb9AZ11tfX4rTxdI7may1se/wJfFYEX3E1k4N9lJTd2wHaWCyGruv4/ffw7d2I0tR0CcOI
+      0tM3jKZa831Vc2fYMlypqBrZuQXUrKxlzapa3C6Na+eb6B4YpaKqwta+mutXOd96nerK0pT0
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
